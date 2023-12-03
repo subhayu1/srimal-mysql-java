@@ -1,0 +1,11 @@
+/Users/srimal/github/mysql-java/src/main/java/projects/entity/Material.java
+/Users/srimal/github/mysql-java/src/main/java/projects/entity/Step.java
+/Users/srimal/github/mysql-java/src/main/java/exception/DbException.java
+/Users/srimal/github/mysql-java/src/main/java/projects/entity/Category.java
+/Users/srimal/github/mysql-java/src/main/java/projects/ProjectsApp.java
+/Users/srimal/github/mysql-java/src/main/java/projects/util/DbConnection.java
+/Users/srimal/github/mysql-java/src/main/java/projects/util/DaoBase.java
+/Users/srimal/github/mysql-java/src/main/java/projects/service/ProjectService.java
+/Users/srimal/github/mysql-java/src/main/java/projects/entity/Project.java
+/Users/srimal/github/mysql-java/src/main/java/projects/util/ProjectDao.java
+/Users/srimal/github/mysql-java/src/main/java/projects/entity/EntityBase.java
