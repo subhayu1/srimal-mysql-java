@@ -1,0 +1,13 @@
+projects/entity/Step.class
+projects/util/ProjectDao.class
+projects/util/DbConnection.class
+projects/service/ProjectService.class
+projects/entity/EntityBase.class
+projects/entity/Project.class
+projects/entity/Material.class
+provided/util/DaoBase.class
+projects/entity/Category.class
+provided/util/DaoBase$DaoException.class
+projects/ProjectsApp.class
+projects/entity/EntityBase$Factor.class
+exception/DbException.class
