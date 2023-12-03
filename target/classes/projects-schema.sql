@@ -15,7 +15,7 @@ DROP TABLE IF EXISTS category;
 
 -- Create the 'category' table
 CREATE TABLE category (
-                          category_id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+                          category_id INT NOT NULL PRIMARY KEY,
                           category_name VARCHAR(128) NOT NULL
 );
 
@@ -31,17 +31,17 @@ CREATE TABLE project (
 
 -- Create the 'material' table
 CREATE TABLE material (
-                          material_id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+                          material_id INT NOT NULL PRIMARY KEY,
                           project_id INT NOT NULL,
                           material_name VARCHAR(128) NOT NULL,
                           num_required INT,
-                          cost DECIMAL(7,2) default 0.00,
+                          cost DECIMAL(7,2),
                           FOREIGN KEY (project_id) REFERENCES project(project_id) ON DELETE CASCADE
 );
 
 -- Create the 'step' table
 CREATE TABLE step (
-                      step_id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+                      step_id INT NOT NULL PRIMARY KEY,
                       project_id INT NOT NULL,
                       step_text TEXT NOT NULL,
                       step_order INT NOT NULL,

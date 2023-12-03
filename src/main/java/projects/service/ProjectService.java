@@ -1,5 +1,4 @@
 package projects.service;
- import exception.DbException;
  import java.sql.SQLException;
  import java.util.List;
  import java.util.NoSuchElementException;
@@ -22,17 +21,5 @@ public class ProjectService {
 
   public List<Project> fetchAllProjects() {
     return projectDao.fetchAllProjects();
-  }
-
-  public void deleteProject(Integer projectId) {
-    if (!projectDao.deleteProject(projectId)) {
-      throw new DbException("No project found with id: " + projectId);
-    }
-  }
-
-  public void modifyProjectDetails(Project project) {
-    if (!projectDao.modifyProjectDetails(project)) {
-      throw new DbException("No project found with id: " + project.getProjectId());
-    }
   }
 }
